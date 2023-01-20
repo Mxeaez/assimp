@@ -90,13 +90,15 @@ project "assimp"
 		"code/AssetLib/Collada/**",
 		"code/AssetLib/Obj/**",
 		"code/AssetLib/FBX/**",
+		"code/AssetLib/Assbin/**",
+		"code/AssetLib/IQM/**"
 	}
 
 	includedirs
     {
 		".",
         "include",
-	    "contrib/",
+	    "contrib",
 		"contrib/irrXML/",
 		"contrib/unzip/",
 		"contrib/rapidjson/include/",
